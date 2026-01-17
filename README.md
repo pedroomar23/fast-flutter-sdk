@@ -10,6 +10,6 @@
 </p>
 
 # FastSdk ⚡️
-
+`FastSdk` is a sdk write in Flutter that work with the [fast.com](https://fast.com) api. The sdk is for view the internet velocity in real time, use the Netflix servers.
 
 
