@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://github.com/pedroomar23/fast-flutter-sdk/blob/main/Resources/Fast%20Icon%20Claro-iOS-Default-1024x1024%401x.png" alt= "Project Icon" with="100" />
+ <img src="https://github.com/pedroomar23/fast-flutter-sdk/blob/main/Resources/Fast%20Icon%20Claro-iOS-Default-1024x1024%401x.png" alt= "Project Icon" with="50" />
 </p> 
 <p align="center">
  <img src="https://img.shields.io/badge/Flutter-3.0.10-blue.svg" alt="Flutter 3.0.10" />
