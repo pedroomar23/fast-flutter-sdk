@@ -9,7 +9,7 @@
     <a href="[https://github.com/pedroomar23/fast-flutter-sdk/blob/main/LICENSE](https://github.com/pedroomar23/qvapaysdk-swift/blob/main/LICENSE.md)"><img src="https://img.shields.io/github/license/danielsaidi/SwiftUIKit" alt="MIT License" /></a>
 </p>
 
-# FastFLutterSdk ⚡️
+# FastSdk ⚡️
 
 
 
