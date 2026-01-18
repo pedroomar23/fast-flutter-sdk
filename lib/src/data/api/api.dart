@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:fast_sdk/src/core/fast_speed.dart';
-import 'package:fast_sdk/src/core/client.dart';
-import 'package:fast_sdk/src/core/target.dart';
+import 'package:fast_sdk_client/src/core/fast_speed.dart';
+import 'package:fast_sdk_client/src/core/client.dart';
+import 'package:fast_sdk_client/src/core/target.dart';
 
 class FastAoi {
   Future<void> fastSpeed() async {
