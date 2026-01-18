@@ -1,4 +1,4 @@
-import 'package:fast_sdk/src/core/location.dart';
+import 'package:fast_sdk_client/src/core/location.dart';
 
 class Target {
   final String name;

@@ -1,5 +1,5 @@
-import 'package:fast_sdk/src/core/client.dart';
-import 'package:fast_sdk/src/core/target.dart';
+import 'package:fast_sdk_client/src/core/client.dart';
+import 'package:fast_sdk_client/src/core/target.dart';
 
 class FastSpeed {
   final Client client;
@@ -12,8 +12,8 @@ class FastSpeed {
 
   factory FastSpeed.fromJson(Map<String, dynamic> json) {
     return FastSpeed(
-      client: json['client'] as Client, 
-      target: json['target'] as List<Target>
+      client: json['client'] as Client,
+      target: json['target'] as List<Target>,
     );
   }
 
