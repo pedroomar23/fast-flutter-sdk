@@ -1,6 +1,6 @@
 name: fast_sdk
 description: "fast_sdk is a sdk that work with the fast.com api, to provide internet speed test functionality"
-version: 1.0.0
+version: 0.0.1
 homepage: https://github.com/pedroomar23/fast-flutter-sdk
 repository: https://github.com/pedroomar23/fast-flutter-sdk
 issue_tracker: https://github.com/pedroomar23/fast-flutter-sdk/issues 
