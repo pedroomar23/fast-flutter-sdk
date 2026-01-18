@@ -1,4 +1,4 @@
-name: fast_sdk
+name: fast_sdk_client 
 description: "fast_sdk is a sdk that work with the fast.com api, to provide internet speed test functionality"
 version: 0.0.1
 homepage: https://github.com/pedroomar23/fast-flutter-sdk
