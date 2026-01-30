@@ -30,9 +30,11 @@ jobs:
 
       - name: Install dependencies
         run: flutter pub get
+        working-directory: ./Proyectos/fast_sdk
       
       - name: Run tests 
         run: flutter test 
+        working-directory: ./Proyectos/fast_sdk
       
       - run: ls -R
 
