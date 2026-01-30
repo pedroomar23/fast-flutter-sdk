@@ -3,14 +3,22 @@ import 'package:http/http.dart' as http;
 import 'package:fast_sdk_client/src/core/fast_speed.dart';
 import 'package:fast_sdk_client/src/core/client.dart';
 import 'package:fast_sdk_client/src/core/target.dart';
+import 'package:fast_sdk_client/src/data/network/network.dart';
 
-class FastAoi {
+class FastApi {
+  // Factory Constructor -> Patrón Singlenton
+  FastApi._internal();
+  static final FastApi _intance = FastApi._internal();
+  factory FastApi() => _intance;
+
   Future<void> fastSpeed() async {
+    final unknowStatus = NetworkError.statusCode;
+    final client = http.Client();
     final urlString = Uri.https(
       "https://api.fast.com",
       "/netflix/speedtest/v2?https=true&token=YXNkZmFzZGxmbnNkYWZoYXNkZmhrYWxm&urlCount=5",
     );
-    final urlResponse = await http.get(urlString);
+    final urlResponse = await client.get(urlString);
     print('✅ DEBUG: Server Response: ${urlResponse.statusCode}');
 
     switch (urlResponse.statusCode) {
@@ -25,7 +33,7 @@ class FastAoi {
         print('✅ DEBUG: JSON Response: ${fastSpeed.toJson()}');
         break;
       case 400:
-        print('❌ DEBUG: JSON Failure Response');
+        print('❌ DEBUG: JSON Failure Response: ${unknowStatus}');
         break;
       default:
         print('❌ DEBUG: JSON FAILURE Response');

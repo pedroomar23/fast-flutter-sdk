@@ -1,5 +1,7 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'package:fast_sdk_client/src/data/api/api.dart';
+
+final fastApi = FastApi();
+
+void test() async {
+  await fastApi.fastSpeed();
 }
