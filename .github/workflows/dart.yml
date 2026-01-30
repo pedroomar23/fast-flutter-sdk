@@ -30,11 +30,13 @@ jobs:
 
       - name: Install dependencies
         run: flutter pub get
-        working-directory: ./package/fast_sdk_client
+        working-directory: ./fast_sdk
       
       - name: Run tests 
         run: flutter test 
-        working-directory: ./package/fast_sdk_client
+        working-directory: ./fast_sdk
+      
+      - run: ls -R
 
       # Uncomment this step to verify the use of 'dart format' on each commit.
       # - name: Verify formatting
